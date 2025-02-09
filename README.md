@@ -39,13 +39,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Background Color Example</title>
   <style>
-    body {
-      background-color: lightblue;
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .content {
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>This is an example of setting a background color using internal CSS.</p>
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
+  <div class="content">
+    <p>This is the content section with a light gray background.</p>
+  </div>
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
 </body>
 </html>
