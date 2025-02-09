@@ -32,15 +32,20 @@
   <script src="script.js"></script>
 </body>
 </html>
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Background Color Example</title>
+  <style>
+    body {
+      background-color: lightblue;
+    }
+  </style>
 </head>
-<body style="background-color: lightblue;">
+<body>
   <h1>Welcome to My Website</h1>
-  <p>This is an example of setting a background color using inline CSS.</p>
+  <p>This is an example of setting a background color using internal CSS.</p>
 </body>
 </html>
